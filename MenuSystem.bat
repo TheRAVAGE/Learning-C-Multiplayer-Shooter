@@ -1,0 +1,1 @@
+"C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\Win64\UnrealEditor.exe" "C:\Unreal Projects\01.Courses\Unreal Engine 5 C++ -  Multiplayer Shooter\MenuSystem\MenuSystem.uproject" -game -ResX=960 -ResY=540 -log -WINDOWED -NOSTEAM

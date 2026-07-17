@@ -33,6 +33,11 @@
 		},
 		{
 			"Name": "OnlineSubsystemSteam",
+			"Enabled": true,
+			"LoadingPhase": "PreDefault"
+		},
+		{
+			"Name": "SteamSockets",
 			"Enabled": true
 		}
 	]

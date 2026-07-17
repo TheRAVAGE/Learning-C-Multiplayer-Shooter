@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "OnlineSessionSettings.h"
 #include "GameFramework/Character.h"
 #include "Interfaces/OnlineSessionInterface.h"
 #include "Logging/LogMacros.h"
@@ -93,21 +94,6 @@ public:
 
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
-	
-public:
-	IOnlineSessionPtr OnlineSessionInterface;
-	
-protected:
-	
-	UFUNCTION(BlueprintCallable, Category="Online|Session")
-	void CreateSession();
-	
-	void OnCreateSessionComplete(FName SessionName, bool bWasSuccessful);
-	
-private:
-	FOnCreateSessionCompleteDelegate OnCreateSessionCompleteDelegate;
-	
-	
 	
 };
 
