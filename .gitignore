@@ -6,6 +6,9 @@
 **/.vscode/
 **/.idea/
 
+# Projects to Ignore
+UnrealLearningKit/
+
 # Ignore everything under Content
 **/Content/**
 
